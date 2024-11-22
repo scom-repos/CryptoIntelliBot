@@ -1,0 +1,36 @@
+{
+    "intents": [
+        {
+            "name": "swap_token",
+            "description": "Swap token.",
+            "details": [
+                {
+                    "name": "chain_name",
+                    "description": "The name of the chain for swapping tokens. Here are the valid chain names: Ethereum, BNB Chain, BNB Chain Testnet, Polygon, Moonbeam Testnet, Cronos, Cronos Testnet, Mumbai Testnet, Avalanche FUJI Testnet, Avalanche, Fantom Testnet, Fantom, AminoX Testnet, Arbitrum Goerli Testnet, Arbitrum One, Optimism: 10, Optimism Goerli, zkSync Era, zkSync Era Goerli, ZKsync Era Sepolia, Polygon zkEVM Testnet, Mantle, Mantle Testnet, Manta Testnet, Manta, Blast Sepolia"
+                },
+                {
+                    "name": "from_token",
+                    "description": "The token symbol to swap from. Here is the mapping of token name and token symbol: Wrapped BNB: WBNB, USDT: USDT, BUSD Token: BUSD, USDC: USDC, DAI: DAI, openANX Token: OAX, CAKE: CAKE, BakeryToken: BAKE, Polkadot Token: DOT, Impossible Finance: IF, Coin98: C98, Impossible Decentralized Incubator Access Token: IDIA, OpenSwap: OSWAP, mOpenSwap: mOSWAP, Project: PRO, mProject: mPRO, mIDIA: mIDIA, Testing: TS, tokenT: TT, JetSwap Token: WINGS, dummy BVR: dBVR, PROJECT: PROJECT, dummy Brickken: BKN"
+                },
+                {
+                    "name": "to_token",
+                    "description": "The token symbol to swap to. Here is the mapping of token name and token symbol: Wrapped BNB: WBNB, USDT: USDT, BUSD Token: BUSD, USDC: USDC, DAI: DAI, openANX Token: OAX, CAKE: CAKE, BakeryToken: BAKE, Polkadot Token: DOT, Impossible Finance: IF, Coin98: C98, Impossible Decentralized Incubator Access Token: IDIA, OpenSwap: OSWAP, mOpenSwap: mOSWAP, Project: PRO, mProject: mPRO, mIDIA: mIDIA, Testing: TS, tokenT: TT, JetSwap Token: WINGS, dummy BVR: dBVR, PROJECT: PROJECT, dummy Brickken: BKN"
+                },
+                {
+                    "name": "from_amount",
+                    "description": "The amount of the token to swap."
+                }
+            ]
+        },
+        {
+            "name": "fetch_file_from_storage",
+            "description": "Get file from storage. It could be a document, image, video, etc.",
+            "details": [
+                {
+                    "name": "description",
+                    "description": "Description of image."
+                }
+            ]
+        }
+    ]
+}
