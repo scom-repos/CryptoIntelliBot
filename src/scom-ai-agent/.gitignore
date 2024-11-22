@@ -1,0 +1,5 @@
+.env
+__pycache__
+volumes
+migrations
+db.sqlite3
